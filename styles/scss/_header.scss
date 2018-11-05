@@ -1,0 +1,84 @@
+@import "variables.scss";
+
+/* HEADER BRAND */
+.headerBrand {
+    background-color: $red;
+    border-bottom: .5px solid $yellow;
+    height: 110px;
+    width: 100%;
+    z-index: 10;
+}
+
+.headerBrand__logo {
+    margin: 0 auto;
+    width: 343px;
+}
+
+.headerBrand__logo img {
+    height: 90px;
+    margin: 10px;
+}
+
+/* HEADER INTRO */
+.card {
+    background-color: $darkRed;
+    border: none;
+}
+
+.card-header {
+    background-color: $darkRed;
+    border-bottom: none;
+    cursor: pointer;
+    margin-bottom: 0;
+    padding: none;
+}
+
+.card img {
+    width: 100%;
+}
+
+/* MOVIE SELECTION */
+.col__flex {
+    display: flex;
+    justify-content: center;
+}
+
+.col__margin {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.col__margin--bot {
+    margin-bottom: 20px;
+}
+
+.col__margin--top {
+    margin-top: 20px;
+}
+
+.row__blue {
+    background: $darkBlue;
+}
+
+// MOVIE SELECTION BUTTONS
+.btn {
+    background-color: $red;
+    color: $white;
+    width: 130px;
+    margin: 0 20px;
+    border: .5px solid $yellow;
+}
+
+.btn:hover {
+    background-color: $darkRed;
+}
+
+.btn .focus,
+.btn:focus {
+    box-shadow: none;
+}
+
+.dropdown-menu a:hover {
+    color: $red;
+    background-color: transparent;
+}

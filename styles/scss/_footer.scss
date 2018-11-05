@@ -1,0 +1,31 @@
+@import "variables.scss";
+
+// FOOTER
+
+// FOOTER ICONS
+footer i {
+    width: 70px;
+    font-size: 40px;
+}
+
+.fa-facebook {
+    color: #3b5998;
+}
+
+.fa-twitter {
+    color: #1da1f2;
+}
+
+.fa-instagram {
+    color: $white;
+}
+
+// FOOTER COPYRIGHT
+footer {
+    background-color: $darkBlue;
+    bottom: 0;
+    height: 153px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}

@@ -1,0 +1,65 @@
+@import "variables.scss";
+
+// MAIN BODY
+.row__margin--bot {
+    margin-bottom: 40px;
+}
+
+.row__margin--top {
+    margin-top: 40px;
+}
+
+// MOVIE IMAGES
+.img-thumbnail {
+    background-color: $white;
+    border-radius: 0.25rem;
+    border: 0.5px solid $white;
+    height: auto;
+    padding: 0.25rem;
+}
+
+.thumbnail {
+    padding: 0px;
+    text-align: center;
+}
+
+// CAPTIONS
+.caption {
+    border-radius: 0.25rem;
+    border: 0.5px solid $white;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    position: relative;
+}
+
+.title {
+    background-color: $red;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+    height: 50%;
+    padding: 0.375rem 0.75rem;
+    width: 100%;
+}
+
+.year {
+    background-color: $darkBlue;
+    border-bottom-left-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+    height: 50%;
+    padding: 0.375rem 0.75rem;
+    width: 100%;
+}
+
+// ADD TO WATCHLIST BUTTON
+.fa-plus-circle {
+	right: 8px;
+	top: 5px;
+    color: $yellow;
+    cursor: pointer;
+    font-size: 20px;
+    position: absolute;
+}
+
+.fa-plus-circle:hover {
+    color: $white;
+}

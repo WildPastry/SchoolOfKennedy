@@ -1,0 +1,26 @@
+@import "variables.scss";
+
+// MODAL POPUP
+.modal-backdrop
+{
+    opacity:1 !important;
+    background-color: $darkBlue;
+}
+
+.modal-content {
+    background-color: $blue;
+    border: 0.3px solid $white;
+}
+
+.modal-header {
+    border-bottom: none;
+}
+
+.modal-footer {
+    border-top: none;
+}
+
+// MODAL CLOSE BUTTON
+.btn__noMargin {
+    margin: 0;
+}
