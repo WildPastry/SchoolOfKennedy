@@ -66,7 +66,11 @@
     color: $white;
     width: 130px;
     margin: 0 20px;
-    border: .5px solid $yellow;
+    border: 1px solid $yellow;
+}
+
+.btn__margin {
+  margin: 20px 0;
 }
 
 .btn:hover {
@@ -81,4 +85,39 @@
 .dropdown-menu a:hover {
     color: $red;
     background-color: transparent;
+}
+
+// MEDIA
+@media (max-width:768px) {
+
+    .btn {
+        margin: 0 auto;
+        width: 200px;
+    }
+
+    .dropdown {
+        margin: 5px auto;
+        width: 200px;
+    }
+
+    #clearMovies {
+        margin: 5px auto;
+    }
+
+    .col__flex {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+}
+
+@media (max-width:568px) {
+
+    .headerBrand__logo {
+        width: 229px;
+    }
+
+    .headerBrand__logo img {
+        height: 60px;
+        margin: 25px 0;
+    }
 }
