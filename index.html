@@ -25,7 +25,7 @@
             <div class="card-header" id="headingOne" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
                 aria-controls="collapseOne">
             </div>
-            <div id="collapseOne" class="collapse show aria-labelledby=" headingOne" data-parent="#accordionIntro" role="button">
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionIntro" role="button">
                 <div class="card-body">
                     <div class="container">
                         <div class="row">
@@ -48,7 +48,6 @@
                 </div>
             </div>
         </div>
-        <!-- CLOSE HEADER INFO -->
     </div>
 
     <!-- MOVIE SELECTION -->
@@ -86,25 +85,21 @@
                         Watchlist
                     </button>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a class="dropdown-item" href="#">xxx</a>
-                        <a class="dropdown-item" href="#">xxx</a>
-                        <a class="dropdown-item" href="#">xxx</a>
+                        <!-- <a class="dropdown-item" href="#">xxx</a> -->
                     </div>
                 </div>
                 <button class="btn" id="clearMovies">Clear</button>
             </div>
         </div>
-        <!-- CLOSE MOVIE SELECTION-->
     </div>
 
-    <!-- MAIN BODY -->
-    <!-- FIRST ROW -->
+    <!-- MOVIE SECTION -->
     <div class="container-fluid">
         <div class="container">
             <div class="row row__margin--top">
                 <div class="col-sm-3 movie primary">
                     <div class="thumbnail">
-                        <img class="img-thumbnail" src="images/movies/WhaleRider.jpg">
+                        <img class="img-thumbnail" src="images/movies/WhaleRider.jpg" data-toggle="modal" data-target="#modelTargetOne">
                         <div class="caption">
                             <div class="title">
                                 <h3>Whale Rider</h3>
@@ -118,7 +113,8 @@
                 </div>
                 <div class="col-sm-3 movie secondary">
                     <div class="thumbnail">
-                        <img class="img-thumbnail" src="images/movies/RememberTheTitans.jpg">
+                        <img class="img-thumbnail" src="images/movies/RememberTheTitans.jpg" data-toggle="modal"
+                            data-target="#modelTargetTwo">
                         <div class="caption">
                             <div class="title">
                                 <h3>Remember the Titans</h3>
@@ -132,7 +128,8 @@
                 </div>
                 <div class="col-sm-3 movie secondary">
                     <div class="thumbnail">
-                        <img class="img-thumbnail img_style" src="images/movies/SupersizeMe.jpg">
+                        <img class="img-thumbnail img_style" src="images/movies/SupersizeMe.jpg" data-toggle="modal"
+                            data-target="#modelTargetThree">
                         <div class="caption">
                             <div class="title">
                                 <h3>Super Size Me</h3>
@@ -146,7 +143,8 @@
                 </div>
                 <div class="col-sm-3 movie primary">
                     <div class="thumbnail">
-                        <img class="img-thumbnail img_style" src="images/movies/PlasticParadise.jpg">
+                        <img class="img-thumbnail img_style" src="images/movies/PlasticParadise.jpg" data-toggle="modal"
+                            data-target="#modelTargetFour">
                         <div class="caption">
                             <div class="title">
                                 <h3>Plastic Paradise</h3>
@@ -158,14 +156,10 @@
                         </div>
                     </div>
                 </div>
-                <!-- CLOSE FIRST ROW -->
-                <!-- </div> -->
-
-                <!-- SECOND ROW -->
-                <!-- <div class="row"> -->
                 <div class="col-sm-3 movie primary">
                     <div class="thumbnail">
-                        <img class="img-thumbnail img_style" src="images/movies/MarchOfThePenguins.jpg">
+                        <img class="img-thumbnail img_style" src="images/movies/MarchOfThePenguins.jpg" data-toggle="modal"
+                            data-target="#modelTargetFive">
                         <div class="caption">
                             <div class="title">
                                 <h3>March of the Penguins</h3>
@@ -179,7 +173,8 @@
                 </div>
                 <div class="col-sm-3 movie secondary">
                     <div class="thumbnail">
-                        <img class="img-thumbnail" src="images/movies/ImitationGame.jpg">
+                        <img class="img-thumbnail" src="images/movies/ImitationGame.jpg" data-toggle="modal"
+                            data-target="#modelTargetSix">
                         <div class="caption">
                             <div class="title">
                                 <h3>Imitation Game</h3>
@@ -193,7 +188,8 @@
                 </div>
                 <div class="col-sm-3 movie primary">
                     <div class="thumbnail">
-                        <img class="img-thumbnail" src="images/movies/HiddenFigures.jpg">
+                        <img class="img-thumbnail" src="images/movies/HiddenFigures.jpg" data-toggle="modal"
+                            data-target="#modelTargetSeven">
                         <div class="caption">
                             <div class="title">
                                 <h3>Hidden Figures</h3>
@@ -207,7 +203,8 @@
                 </div>
                 <div class="col-sm-3 movie primary">
                     <div class="thumbnail">
-                        <img class="img-thumbnail" src="images/movies/BeforeTheFlood.jpg">
+                        <img class="img-thumbnail" src="images/movies/BeforeTheFlood.jpg" data-toggle="modal"
+                            data-target="#modelTargetEight">
                         <div class="caption">
                             <div class="title">
                                 <h3>Before the Flood</h3>
@@ -219,14 +216,9 @@
                         </div>
                     </div>
                 </div>
-                <!-- CLOSE SECOND ROW -->
-                <!-- </div> -->
-
-                <!-- THIRD ROW -->
-                <!-- <div class="row"> -->
                 <div class="col-sm-3 movie secondary">
                     <div class="thumbnail">
-                        <img class="img-thumbnail" src="images/movies/Bully.jpg">
+                        <img class="img-thumbnail" src="images/movies/Bully.jpg" data-toggle="modal" data-target="#modelTargetNine">
                         <div class="caption">
                             <div class="title">
                                 <h3>Bully</h3>
@@ -240,7 +232,8 @@
                 </div>
                 <div class="col-sm-3 movie primary">
                     <div class="thumbnail">
-                        <img class="img-thumbnail" src="images/movies/ABeautifulPlanet.jpg">
+                        <img class="img-thumbnail" src="images/movies/ABeautifulPlanet.jpg" data-toggle="modal"
+                            data-target="#modelTargetTen">
                         <div class="caption">
                             <div class="title">
                                 <h3>A Beautiful Planet</h3>
@@ -254,7 +247,7 @@
                 </div>
                 <div class="col-sm-3 movie secondary">
                     <div class="thumbnail">
-                        <img class="img-thumbnail" src="images/movies/Basquiat.jpg">
+                        <img class="img-thumbnail" src="images/movies/Basquiat.jpg" data-toggle="modal" data-target="#modelTargetEleven">
                         <div class="caption">
                             <div class="title">
                                 <h3>Basquiat</h3>
@@ -268,7 +261,8 @@
                 </div>
                 <div class="col-sm-3 movie secondary">
                     <div class="thumbnail">
-                        <img class="img-thumbnail" src="images/movies/BangBangYou'reDead.jpg">
+                        <img class="img-thumbnail" src="images/movies/BangBangYou'reDead.jpg" data-toggle="modal"
+                            data-target="#modelTargetTwelve">
                         <div class="caption">
                             <div class="title">
                                 <h3>Bang Bang You're Dead</h3>
@@ -280,43 +274,502 @@
                         </div>
                     </div>
                 </div>
-                <!-- CLOSE THIRD ROW -->
-                <!-- </div> -->
+                <!-- CLOSE MOVIE SECTION -->
 
                 <!-- CLOSE MAIN BODY -->
             </div>
         </div>
     </div>
-    <!-- MODAL -->
-    <!-- MODAL BUTTON -->
-    <!-- <div class="container-fluid">
-            <div class="row">
-                <div class="col-sm-12 col__flex row__margin--bot">
-                    <button type="button" class="btn" data-toggle="modal" data-target="#exampleModalCenter">
-                        Modal
-                    </button>
-                </div>
-            </div>
-        </div> -->
 
-    <!-- MODAL POPUP -->
-    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    <!-- MODAL POPUPS -->
+    <!-- ONE -->
+    <div class="modal fade" id="modelTargetOne" tabindex="-1" role="dialog" aria-labelledby="modelTargetOne"
         aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
-                </div>
                 <div class="modal-body">
-
-                    We have to style our shit in here.
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn__noMargin" data-dismiss="modal">Close</button>
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-6 modal--img">
+                                <img src="images/movies/WhaleRider.jpg" alt="Whale Rider">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="modal__caption">
+                                    <div class="title">
+                                        <h3>Whale Rider</h3>
+                                        <i class="fas fa-plus-circle"></i>
+                                    </div>
+                                    <div class="year">
+                                        <h4>2002</h4>
+                                    </div>
+                                </div>
+                                <p><span class="boldHead">Theme:</span><br>
+                                    “Whale Rider” offers young people the opportunity to learn about a different culture and to examine the difficulties that many traditional groups experience in facing change. Students can examine their own concepts of gender roles as they watch entrenched sexism diminish through the course of the film.<br><br>The importance of myth and stories which shape the lives of traditional people will become clear to viewers and will offer the perspective necessary to look at their own myths and stories.<br><br>
+                                    <span class="boldHead">Description:</span><br>
+                                    Paikea Apirana’s grandfather is the Chief of a small Maori tribe in modern-day New Zealand. Maori tradition provides that only first born sons can be chief. However, Pai’s father, the next in line, has declined to accept the role.<br><br> If Pai had a brother, he would become chief, but her only brother, her twin, died at birth, along with their mother. Although Pai’s grandfather, Koro, loves his granddaughter, he is determined to find a male to serve as his successor. </p>
+                                <button type="button" class="btn btn__margin" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+    <!-- TWO -->
+    <div class="modal fade" id="modelTargetTwo" tabindex="-1" role="dialog" aria-labelledby="modelTargetTwo"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-6 modal--img">
+                                <img src="images/movies/RememberTheTitans.jpg" alt="Remember The Titans">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="modal__caption">
+                                    <div class="title">
+                                        <h3>Remember The Titans</h3>
+                                        <i class="fas fa-plus-circle"></i>
+                                    </div>
+                                    <div class="year">
+                                        <h4>2001</h4>
+                                    </div>
+                                </div>
+                                <p><span class="boldHead">Theme:</span><br>
+                                    Overcoming Racism, team Bonding and friendship.
+                                    The team’s friendship is a direct result of the overcoming of racism. We are all human and there’s no reason
+                                    we can’t get along and make something great together. Picking apart these central themes reveals an inspiring
+                                    outline of how people should treat each other, especially among family.<br><br>
+                                    <span class="boldHead">Description:</span><br>
+                                    The team has a struggle bonding and becoming a team in the beginning. When they came back from camp you
+                                    see the start of them finally becoming a team. Without the bonding the team would not work and prove that
+                                    they could not mix schools.<br><br> The Titans had many differences to overcome including race, culture, and economic
+                                    backgrounds.
+                                    The Titans were forced to press on and uphold their pride and dignity.</p>
+                                <button type="button" class="btn btn__margin" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- THREE -->
+    <div class="modal fade" id="modelTargetThree" tabindex="-1" role="dialog" aria-labelledby="modelTargetThree"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-6 modal--img">
+                                <img src="images/movies/SupersizeMe.jpg" alt="Super Size Me">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="modal__caption">
+                                    <div class="title">
+                                        <h3>Super Size Me</h3>
+                                        <i class="fas fa-plus-circle"></i>
+                                    </div>
+                                    <div class="year">
+                                        <h4>2004</h4>
+                                    </div>
+                                </div>
+                                <p><span class="boldHead">Theme:</span><br>
+                                    The main theme of this documentary-style movie is actually a public health one: the role of fast food (particularly
+                                    McDonalds) in the US obesity epidemic and in poor nutrition.
+                                    The topic is also an example of how corporate power (McDonalds and the Grocery Manufacturers of America
+                                    (GMA)) impact on a public health issue. <br><br>
+                                    <span class="boldHead">Description:</span><br>
+                                    Several legal suits have been brought against McDonald’s Restaurants that they are knowingly selling food that is
+                                    unhealthy. Some of the court decisions have stated that the plaintiffs would have a claim if they could prove that
+                                    eating the food every day for every meal is dangerous. As such, documentarian Morgan Spurlock conducts an
+                                    unscientific experiment using himself as the guinea pig: eat only McDonald’s for thirty days, three meals a day.<br><br>
+                                    If he is asked by the clerk if he would like the meal super sized, he has to say yes. And by the end of the thirty
+                                    days, he will have had to have eaten every single menu item at least once. Before starting the experiment, he
+                                    is tested by three doctors.</p>
+                                <button type="button" class="btn btn__margin" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- FOUR -->
+    <div class="modal fade" id="modelTargetFour" tabindex="-1" role="dialog" aria-labelledby="modelTargetFour"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-6 modal--img">
+                                <img src="images/movies/PlasticParadise.jpg" alt="Plastic Paradise">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="modal__caption">
+                                    <div class="title">
+                                        <h3>Plastic Paradise</h3>
+                                        <i class="fas fa-plus-circle"></i>
+                                    </div>
+                                    <div class="year">
+                                        <h4>2014</h4>
+                                    </div>
+                                </div>
+                                <p><span class="boldHead">Theme:</span><br>
+                                    Angela Sun builds a compelling case against the convenience of plastics in modern living. ‘Choose To Refuse’, 
+                                    imagine a world without plastic waste.<br><br>
+                                    <span class="boldHead">Description:</span><br>
+                                    “Plastic Paradise” is an independent documentary film that chronicles Angela Sun’s personal journey of
+                                    discovery to one of the most remote places on Earth, Midway Atoll, to uncover the truth behind the mystery of
+                                    the Great Pacific Garbage Patch.<br><br>Along the way she encounters scientists, celebrities, legislators and activists
+                                    who shed light on what our society’s vast consumption of disposable plastic is doing to our oceans - and what it
+                                    may be doing to our health.</p>
+                                <button type="button" class="btn btn__margin" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- FIVE -->
+    <div class="modal fade" id="modelTargetFive" tabindex="-1" role="dialog" aria-labelledby="modelTargetFive"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-6 modal--img">
+                                <img src="images/movies/MarchOfThePenguins.jpg" alt="March Of The Penguins">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="modal__caption">
+                                    <div class="title">
+                                        <h3>March Of The Penguins</h3>
+                                        <i class="fas fa-plus-circle"></i>
+                                    </div>
+                                    <div class="year">
+                                        <h4>2005</h4>
+                                    </div>
+                                </div>
+                                <p><span class="boldHead">Theme:</span><br>
+                                    In the Antarctic, every March since the beginning of time, the quest begins to find the perfect mate and start a family.<br><br>
+                                    <span class="boldHead">Description:</span><br>
+                                    At the end of each Antarctic summer, the emperor penguins of the South Pole journey to their traditional
+                                    breeding grounds in a fascinating mating ritual that is captured in this documentary by intrepid filmmaker Luc
+                                    Jacquet.<br><br>The journey across frozen tundra proves to be the simplest part of the ritual, as after the egg is hatched,
+                                    the female must delicately transfer it to the male and make her way back to the distant sea to nourish herself
+                                    and bring back food to her newborn chick. </p>
+                                <button type="button" class="btn btn__margin" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- SIX -->
+    <div class="modal fade" id="modelTargetSix" tabindex="-1" role="dialog" aria-labelledby="modelTargetSix"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-6 modal--img">
+                                <img src="images/movies/ImitationGame.jpg" alt="The Imitation Game">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="modal__caption">
+                                    <div class="title">
+                                        <h3>The Imitation Game</h3>
+                                        <i class="fas fa-plus-circle"></i>
+                                    </div>
+                                    <div class="year">
+                                        <h4>2015</h4>
+                                    </div>
+                                </div>
+                                <p><span class="boldHead">Theme:</span><br>
+                                    The key message to get across is the concept of determination and the idea that if you try over and over again you will eventually succeed if you set your mind to it.
+                                    Other themes include:
+                                    Motivation, Success, Intelligence, Social Acceptance and War.<br><br>
+                                    <span class="boldHead">Description:</span><br>
+                                    During the World War II, the mathematician Alan Turing joins a team of code-breakers at top-secret facility at
+                                    Bletchley Park to try to decipher the code of the German enigma machine.<br><br>Turing is a homosexual genius and
+                                    during two years, he and his team successfully develop another machine to decipher the enigma.</p>
+                                <button type="button" class="btn btn__margin" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- SEVEN -->
+    <div class="modal fade" id="modelTargetSeven" tabindex="-1" role="dialog" aria-labelledby="modelTargetSeven"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-6 modal--img">
+                                <img src="images/movies/HiddenFigures.jpg" alt="Hidden Figures">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="modal__caption">
+                                    <div class="title">
+                                        <h3>Hidden Figures</h3>
+                                        <i class="fas fa-plus-circle"></i>
+                                    </div>
+                                    <div class="year">
+                                        <h4>2017</h4>
+                                    </div>
+                                </div>
+                                <p><span class="boldHead">Theme:</span><br>
+                                    Inspiring true story of African-American women at NASA.
+                                    Racism and Inequality.
+                                    Luck, Persistent Action, and Hard Work.
+                                    Scientific Progress vs. Social and Political Progress.<br><br>
+                                    <span class="boldHead">Description:</span><br>
+                                    As the United States raced against Russia to put a man in space, NASA found untapped talent in a group of
+                                    African-American female mathematicians that served as the brains behind one of the greatest operations in
+                                    U.S. history.<br><br> Based on the unbelievably true life stories of three of these women, known as “human computers”,
+                                    we follow these women as they quickly rose the ranks of NASA alongside many of history’s greatest minds
+                                    specifically tasked with calculating the momentous launch of astronaut John Glenn into orbit, and guaranteeing
+                                    his safe return.<br><br>Dorothy Vaughan, Mary Jackson, and Katherine Gobels Johnson crossed all gender, race, and
+                                    professional lines while their brilliance and desire to dream big, beyond anything ever accomplished before by
+                                    the human race, firmly cemented them in U.S. history as true American heroes. </p>
+                                <button type="button" class="btn btn__margin" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- EIGHT -->
+    <div class="modal fade" id="modelTargetEight" tabindex="-1" role="dialog" aria-labelledby="modelTargetEight"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-6 modal--img">
+                                <img src="images/movies/BeforeTheFlood.jpg" alt="Before The Flood">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="modal__caption">
+                                    <div class="title">
+                                        <h3>Before The Flood</h3>
+                                        <i class="fas fa-plus-circle"></i>
+                                    </div>
+                                    <div class="year">
+                                        <h4>2016</h4>
+                                    </div>
+                                </div>
+                                <p><span class="boldHead">Theme:</span><br>
+                                    The environment, corruption, government, corporations, greed, ignorance, science, art, technology and fear.<br><br>
+                                    <span class="boldHead">Description:</span><br>
+                                    Before the Flood is a 2016 documentary, following Leonardo DiCaprio as he goes around the Earth looking at the
+                                    current and even future devastating impact of climate change. The issue of climate change denial, particularly
+                                    among corporations and the government is explored heavily and how corporations pay off government speakers
+                                    to deny climate change for profit.<br><br>Before the Flood was produced by many famous filmmakers in particular Fisher
+                                    Stevens, Leonardo DiCaprio, Brett Ratner , James Packer, Trevor Davidovski, Jennifer Killoran and Martin Scorsese
+                                    as an executive producer. The way that National Geographic have distributed the film is very interesting, as it
+                                    shows them adapting to the modern style of distribution to present the film.<br><br>The film is available in it’s entirety on
+                                    their youtube channel for free, to get the message spread as far are possible.  </p>
+                                <button type="button" class="btn btn__margin" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- NINE -->
+    <div class="modal fade" id="modelTargetNine" tabindex="-1" role="dialog" aria-labelledby="modelTargetNine"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-6 modal--img">
+                                <img src="images/movies/Bully.jpg" alt="Bully">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="modal__caption">
+                                    <div class="title">
+                                        <h3>Bully</h3>
+                                        <i class="fas fa-plus-circle"></i>
+                                    </div>
+                                    <div class="year">
+                                        <h4>2011</h4>
+                                    </div>
+                                </div>
+                                <p><span class="boldHead">Theme:</span><br>
+                                    A documentary on peer-to-peer bullying in schools across America.<br><br>
+                                    <span class="boldHead">Description:</span><br>
+                                    This year, over 13 million American kids will be bullied at school, online, on the bus, at home, through their cell
+                                    phones and on the streets of their towns, making it the most common form of violence young people in this
+                                    country experience. BULLY is the first feature documentary film to show how we’ve all been affected by bullying,
+                                    whether we’ve been victims, perpetrators or stood silent witness. The world we inhabit as adults begins on the
+                                    playground.<br><br>BULLY opens on the first day of school. For the more than 13 million kids who’ll be bullied this year
+                                    in the United States, it’s a day filled with more anxiety and foreboding than excitement. As the sun rises and
+                                    school buses across the country overflow with backpacks, brass instruments and the rambunctious sounds of
+                                    raging hormones, this is a ride into the unknown. For a lot of kids, the only thing that’s certain is that this year,
+                                    like every other, bullying will be a big part of whatever meets them at their school’s front doors. </p>
+                                <button type="button" class="btn btn__margin" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- TEN -->
+    <div class="modal fade" id="modelTargetTen" tabindex="-1" role="dialog" aria-labelledby="modelTargetTen"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-6 modal--img">
+                                <img src="images/movies/ABeautifulPlanet.jpg" alt="A Beautiful Planet">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="modal__caption">
+                                    <div class="title">
+                                        <h3>A Beautiful Planet</h3>
+                                        <i class="fas fa-plus-circle"></i>
+                                    </div>
+                                    <div class="year">
+                                        <h4>2016</h4>
+                                    </div>
+                                </div>
+                                <p><span class="boldHead">Theme:</span><br>
+                                    The importance of communication and cooperation. Humanity’s huge impact on our planet.<br><br>
+                                    <span class="boldHead">Description:</span><br>
+                                    Parents need to know that A Beautiful Planet is a stunning IMAX documentary (presented in 3-D when available)
+                                    that takes viewers onto the International Space Station to get a glimpse of Earth from space.<br><br> There’s no shortage
+                                    of incredible views, some of which are sobering - including a massive typhoon in the South Pacific, the droughtstricken
+                                    California landscape, and the melting Greenland ice sheet. Kids will learn about life on the space station
+                                    (including a slightly tense sequence in which an astronaut struggles to get into his suit and talks about how even
+                                    a tiny hole could kill him) and see humanity’s huge impact on our planet, from deforestation to greenhouse gas
+                                    emissions. The images (especially in IMAX scale) might be a little overwhelming for younger kids, but anyone
+                                    interested in science, space, or the environment will be blown away, and the astronauts are great role models
+                                    who demonstrate the importance of communication and cooperation.</p>
+                                <button type="button" class="btn btn__margin" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ELEVEN -->
+    <div class="modal fade" id="modelTargetEleven" tabindex="-1" role="dialog" aria-labelledby="modelTargetEleven"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-6 modal--img">
+                                <img src="images/movies/Basquiat.jpg" alt="Basquiat">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="modal__caption">
+                                    <div class="title">
+                                        <h3>Basquiat</h3>
+                                        <i class="fas fa-plus-circle"></i>
+                                    </div>
+                                    <div class="year">
+                                        <h4>1996</h4>
+                                    </div>
+                                </div>
+                                <p><span class="boldHead">Theme:</span><br>
+                                    The brief life of Jean Michel Basquiat, a world renowned New York street artist struggling with fame, drugs and his identity.
+                                    Basquiat’s art focused on “suggestive dichotomies”, such as wealth versus poverty, integration versus
+                                    segregation, and inner versus outer experience.<br><br>
+                                    <span class="boldHead">Description:</span><br>
+                                    Jean-Michel Basquiat was an influential African-American artist who rose to success during the 1980s. Basquiat’s
+                                    paintings are largely responsible for elevating graffiti artists into the realm of the New York gallery scene. His
+                                    spray-painted crowns and scribbled words, referenced everything from his Haitian and Puerto Rican heritage,
+                                    to political issues, pop-culture icons, and Biblical verse. <br><br> “It’s simply someone’s idea going through
+                                    my new mind.” Basquiat never finished high school but developed an appreciation for art as a youth, from
+                                    his many visits to the Brooklyn Museum of Art with his mother. His early work consisted of spray painting
+                                    buildings and trains in downtown New York alongside his friend Al Diaz. After quickly rising to fame in the early
+                                    1980s, Basquiat was befriended by many celebrities and artists, including Andy Warhol, with whom he made
+                                    several collaborative works.</p>
+                                <button type="button" class="btn btn__margin" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- TWELVE -->
+    <div class="modal fade" id="modelTargetTwelve" tabindex="-1" role="dialog" aria-labelledby="modelTargetTwelve"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-6 modal--img">
+                                <img src="images/movies/BangBangYou'reDead.jpg" alt="Bang Bang">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="modal__caption">
+                                    <div class="title">
+                                        <h3>Bang Bang You're Dead</h3>
+                                        <i class="fas fa-plus-circle"></i>
+                                    </div>
+                                    <div class="year">
+                                        <h4>2002</h4>
+                                    </div>
+                                </div>
+                                <p><span class="boldHead">Theme:</span><br>
+                                    Bullying, Mental health awareness. Trevor is a troubled high school student, thanks
+                                    to the effects of bullying.
+                                    This is the story of his fight to break free.<br><br>
+                                    <span class="boldHead">Description:</span><br>
+                                    Absolutely superb story which originally seems to be about a school shooting but,
+                                    through flashbacks, is also a
+                                    stunning look at how mental illness affects a family. Huge recommendation.
+                                    Trevor Adams was a model student until extreme bullying drove him to threaten to
+                                    bomb the high school
+                                    football team.Now Trevor’s a time bomb himself - troubled, misunderstood,
+                                    and on
+                                    the brink of committing
+                                    real violence.<br><br>
+                                    Salvation comes in the form of a caring drama teacher named
+                                    Mr.
+                                    Duncan, who offers Trevor
+                                    the lead in the school play. But when the community gets wind of the play’s subject
+                                    matter - school violence
+                                    and playground killers - as well as its troubled protagonist, the production is in
+                                    jeopardy, as is Trevor’s attempt
+                                    to avoid calamity.
+                                    This gritty, hard-hitting drama offers an authentic glimpse
+                                    inside the post-Columbine high
+                                    schools of America and the forces that can compel a teen to violence.</p>
+                                <button type="button" class="btn btn__margin" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
     <!-- FOOTER -->

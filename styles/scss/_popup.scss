@@ -1,18 +1,21 @@
 @import "variables.scss";
 
 // MODAL POPUP
-.modal-backdrop
-{
-    opacity:1 !important;
+.modal-backdrop {
+    opacity: 1 !important;
     background-color: $darkBlue;
 }
 
-.modal-header {
-    border-bottom: none;
+.modal-dialog {
+    max-width: 1150px;
+    width: 1150px !important;
+    height: 85% !important;
 }
 
-.modal-footer {
-    border-top: none;
+.modal-content {
+    width: 100%;
+    background-color: $blue;
+    border: 1px solid $white;
 }
 
 // MODAL CLOSE BUTTON
@@ -20,15 +23,52 @@
     margin: 0;
 }
 
-.modal-dialog {
-    max-width: 1400px;
-    width: 60% !important;
-    height: 80% !important;
+// MODAL CAPTION
+.modal__caption {
+    border-radius: 0.25rem;
+    border: 1px solid #fff;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    position: relative;
 }
 
-.modal-content {
-    height: 100%;
-    width: 100%;
-    background-color: $blue;
-    border: 1px solid $white;
+.modal__caption h3 {
+    color: $white;
+    font-family: 'Roboto Slab', serif, bold;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.modal__caption h4 {
+    color: $white;
+    font-family: 'Roboto Slab', serif;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.modal__caption i {
+    right: 11px;
+    top: 8px;
+    font-size: 35px;
+}
+
+// IMAGE THUMBNAILS TO LOAD MODAL
+.img-thumbnail {
+    cursor: pointer;
+}
+
+// MODAL IMAGES
+.modal--img img {
+    height: auto;
+    min-width: 100%;
+    margin: 20px 0;
+}
+
+// MODAL TEXT
+.boldHead {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 3px;
 }
