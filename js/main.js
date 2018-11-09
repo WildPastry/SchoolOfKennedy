@@ -101,51 +101,118 @@ function filterSecondary() {
     console.log(".secondary")
 }
 
-// WATCHLIST BUTTONS
-// CREATE EMPTY WATCHLIST
-// var watchList = [];
-// var movies = ["whaleRider"]
-// console.log(watchList);
+// SUBJECT BUTTON (FILTER BY SUBJECT)
+function englishFilter() {
+	$(function() {
+		$(".movieScience").hide();
+  
+	});
+	$(function() {
+		$(".movieArt").hide();
+  
+	});
+	$(function() {
+		$(".movieEnvironment").hide();
+  
+	});
+	$(function() {
+		$(".movieMaths").hide();
+  
+	});
 
-// jQuery(function ($) {
-//     $(".addWhaleBtn").click(function () {
-//         if ((watchList.includes("whaleRider")) == 1) {
-//             console.log("You have already added this movie to the Watchlist");
-//             alert("You have already added this movie to the Watchlist");
-//         }
-//         if (((watchList.includes("whaleRider")) == 0) && (movies.includes("whaleRider"))) {
-//             watchList.push("whaleRider");
-//             console.log(watchList.includes("whaleRider"));
-//             console.log(watchList);
-//             document.getElementById("watchList").innerHTML = "";
-//             for (var i = 0; i < watchList.length; i++) {
-//                 document.getElementById("watchList").innerHTML += "<li >" + watchList[i] + "</li>";
-//             }
-//         }
-//         return watchList;
-//     });
-//     console.log(document.getElementById('watchList'));
-// });
+	$(function() {
+		$(".movieEnglish").show();
+	});
+}
 
+function scienceFilter() {
+	$(function(){
+		$(".movieEnglish").hide();
+  
+	});
+	$(function() {
+		$(".movieArt").hide();
+  
+	});
+	$(function() {
+		$(".movieEnvironment").hide();
+  
+	});
+	$(function() {
+		$(".movieMaths").hide();
+  
+	});
 
-// function addWhale() {
+	$(function() {
+		$(".movieScience").show();
+	});
+}
 
-//     document.getElementsByClassName("addWhaleBtn").addEventListener('click', addWhale);
-//     document.getElementsByClassName("watchList").innerHTML = "";
+function artFilter() {
+	$(function() {
+		$(".movieEnglish").hide();
+  
+	});
+	$(function() {
+		$(".movieScience").hide();
+  
+	});
+	$(function() {
+		$(".movieEnvironment").hide();
+  
+	});
+	$(function() {
+		$(".movieMaths").hide();
+  
+	});
 
-//     for (var i = 0; i < 3; i++) {
+	$(function() {
+		$(".movieArt").show();
+	});
+}
 
-//         watchList = document.getElementsByClassName('watchList');
-//         createListOuter = document.createElement('div');
-//         createListInner = document.createElement('li');
+function environmentFilter() {
+	$(function(){
+		$(".movieEnglish").hide();
+  
+	});
+	$(function() {
+		$(".movieScience").hide();
+  
+	});
+	$(function() {
+		$(".movieArt").hide();
+  
+	});
+	$(function() {
+		$(".movieMaths").hide();
+  
+	});
 
-//         createListOuter.className = 'dropdown-menu';
-//         createListInner.className = 'dropdown-item';
-//         createListOuter.appendChild(createListInner);
+	$(function() {
+		$(".movieEnvironment").show();
+	});
+}
 
-//         createListInner.innerHTML += '<li">' + allMovies[i].name + '</li>';
-//         watchList.appendChild(createListOuter);
-//     }
-//     console.log(document.getElementsByClassName('watchList'));
-//     console.log("Item added to Watchlist")
-// }
+function mathsFilter() {
+	$(function() {
+		$(".movieEnglish").hide();
+  
+	});
+	$(function() {
+		$(".movieScience").hide();
+  
+	});
+	$(function() {
+		$(".movieArt").hide();
+  
+	});
+	$(function() {
+		$(".movieEnvironment").hide();
+  
+	});
+
+	$(function() {
+		$(".movieMaths").show();
+	});
+}

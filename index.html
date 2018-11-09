@@ -73,10 +73,11 @@
                         Subject
                     </button>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a class="dropdown-item" href="#">English</a>
-                        <a class="dropdown-item" href="#">Maths</a>
-                        <a class="dropdown-item" href="#">Science</a>
-                        <a class="dropdown-item" href="#">Art</a>
+                        <a onclick="englishFilter()" class="dropdown-item" href="#">English</a>
+                        <a onclick="mathsFilter()"class="dropdown-item" href="#">Maths</a>
+                        <a onclick="scienceFilter()" class="dropdown-item" href="#">Science</a>
+                        <a onclick="environmentFilter()"class="dropdown-item" href="#">Environment</a>
+                        <a onclick="artFilter()" class="dropdown-item" href="#">Art</a>
                     </div>
                 </div>
                 <div class="dropdown">
@@ -97,7 +98,7 @@
     <div class="container-fluid">
         <div class="container">
             <div class="row row__margin--top">
-                <div class="col-sm-3 movie primary">
+                <div class="col-sm-3 movie primary movieEnglish">
                     <div class="thumbnail">
                         <img class="img-thumbnail" src="images/movies/WhaleRider.jpg" data-toggle="modal" data-target="#modelTargetOne">
                         <div class="caption">
@@ -111,7 +112,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-3 movie secondary">
+                <div class="col-sm-3 movie secondary movieEnglish">
                     <div class="thumbnail">
                         <img class="img-thumbnail" src="images/movies/RememberTheTitans.jpg" data-toggle="modal"
                             data-target="#modelTargetTwo">
@@ -126,7 +127,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-3 movie secondary">
+                <div class="col-sm-3 movie secondary movieEnglish">
                     <div class="thumbnail">
                         <img class="img-thumbnail img_style" src="images/movies/SupersizeMe.jpg" data-toggle="modal"
                             data-target="#modelTargetThree">
@@ -141,7 +142,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-3 movie primary">
+                <div class="col-sm-3 movie primary movieEnvironment">
                     <div class="thumbnail">
                         <img class="img-thumbnail img_style" src="images/movies/PlasticParadise.jpg" data-toggle="modal"
                             data-target="#modelTargetFour">
@@ -156,7 +157,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-3 movie primary">
+                <div class="col-sm-3 movie primary movieEnvironment">
                     <div class="thumbnail">
                         <img class="img-thumbnail img_style" src="images/movies/MarchOfThePenguins.jpg" data-toggle="modal"
                             data-target="#modelTargetFive">
@@ -171,7 +172,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-3 movie secondary">
+                <div class="col-sm-3 movie secondary movieMaths">
                     <div class="thumbnail">
                         <img class="img-thumbnail" src="images/movies/ImitationGame.jpg" data-toggle="modal"
                             data-target="#modelTargetSix">
@@ -186,7 +187,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-3 movie primary">
+                <div class="col-sm-3 movie primary movieMaths">
                     <div class="thumbnail">
                         <img class="img-thumbnail" src="images/movies/HiddenFigures.jpg" data-toggle="modal"
                             data-target="#modelTargetSeven">
@@ -201,7 +202,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-3 movie primary">
+                <div class="col-sm-3 movie primary movieScience">
                     <div class="thumbnail">
                         <img class="img-thumbnail" src="images/movies/BeforeTheFlood.jpg" data-toggle="modal"
                             data-target="#modelTargetEight">
@@ -216,7 +217,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-3 movie secondary">
+                <div class="col-sm-3 movie secondary movieEnglish">
                     <div class="thumbnail">
                         <img class="img-thumbnail" src="images/movies/Bully.jpg" data-toggle="modal" data-target="#modelTargetNine">
                         <div class="caption">
@@ -230,7 +231,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-3 movie primary">
+                <div class="col-sm-3 movie primary movieEnvironment">
                     <div class="thumbnail">
                         <img class="img-thumbnail" src="images/movies/ABeautifulPlanet.jpg" data-toggle="modal"
                             data-target="#modelTargetTen">
@@ -245,7 +246,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-3 movie secondary">
+                <div class="col-sm-3 movie secondary movieArt">
                     <div class="thumbnail">
                         <img class="img-thumbnail" src="images/movies/Basquiat.jpg" data-toggle="modal" data-target="#modelTargetEleven">
                         <div class="caption">
@@ -259,7 +260,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-3 movie secondary">
+                <div class="col-sm-3 movie secondary movieEnglish">
                     <div class="thumbnail">
                         <img class="img-thumbnail" src="images/movies/BangBangYou'reDead.jpg" data-toggle="modal"
                             data-target="#modelTargetTwelve">
@@ -306,7 +307,7 @@
                                 <p><span class="boldHead">Theme:</span><br>
                                     “Whale Rider” offers young people the opportunity to learn about a different culture and to examine the difficulties that many traditional groups experience in facing change. Students can examine their own concepts of gender roles as they watch entrenched sexism diminish through the course of the film.<br><br>The importance of myth and stories which shape the lives of traditional people will become clear to viewers and will offer the perspective necessary to look at their own myths and stories.<br><br>
                                     <span class="boldHead">Description:</span><br>
-                                    Paikea Apirana’s grandfather is the Chief of a small Maori tribe in modern-day New Zealand. Maori tradition provides that only first born sons can be chief. However, Pai’s father, the next in line, has declined to accept the role.<br><br> If Pai had a brother, he would become chief, but her only brother, her twin, died at birth, along with their mother. Although Pai’s grandfather, Koro, loves his granddaughter, he is determined to find a male to serve as his successor. </p>
+                                    Paikea Apirana’s grandfather is the Chief of a small Maori tribe in modern-day New Zealand. Maori tradition provides that only first born sons can be chief. However, Pai’s father, the next in line, has declined to accept the role.</p>
                                 <button type="button" class="btn btn__margin" data-dismiss="modal">Close</button>
                             </div>
                         </div>
@@ -344,9 +345,7 @@
                                     <span class="boldHead">Description:</span><br>
                                     The team has a struggle bonding and becoming a team in the beginning. When they came back from camp you
                                     see the start of them finally becoming a team. Without the bonding the team would not work and prove that
-                                    they could not mix schools.<br><br> The Titans had many differences to overcome including race, culture, and economic
-                                    backgrounds.
-                                    The Titans were forced to press on and uphold their pride and dignity.</p>
+                                    they could not mix schools.</p>
                                 <button type="button" class="btn btn__margin" data-dismiss="modal">Close</button>
                             </div>
                         </div>
@@ -385,10 +384,8 @@
                                     Several legal suits have been brought against McDonald’s Restaurants that they are knowingly selling food that is
                                     unhealthy. Some of the court decisions have stated that the plaintiffs would have a claim if they could prove that
                                     eating the food every day for every meal is dangerous. As such, documentarian Morgan Spurlock conducts an
-                                    unscientific experiment using himself as the guinea pig: eat only McDonald’s for thirty days, three meals a day.<br><br>
-                                    If he is asked by the clerk if he would like the meal super sized, he has to say yes. And by the end of the thirty
-                                    days, he will have had to have eaten every single menu item at least once. Before starting the experiment, he
-                                    is tested by three doctors.</p>
+                                    unscientific experiment using himself as the guinea pig: eat only McDonald’s for thirty days, three meals a day.
+                                </p>
                                 <button type="button" class="btn btn__margin" data-dismiss="modal">Close</button>
                             </div>
                         </div>
@@ -541,9 +538,7 @@
                                     U.S. history.<br><br> Based on the unbelievably true life stories of three of these women, known as “human computers”,
                                     we follow these women as they quickly rose the ranks of NASA alongside many of history’s greatest minds
                                     specifically tasked with calculating the momentous launch of astronaut John Glenn into orbit, and guaranteeing
-                                    his safe return.<br><br>Dorothy Vaughan, Mary Jackson, and Katherine Gobels Johnson crossed all gender, race, and
-                                    professional lines while their brilliance and desire to dream big, beyond anything ever accomplished before by
-                                    the human race, firmly cemented them in U.S. history as true American heroes. </p>
+                                    his safe return.</p>
                                 <button type="button" class="btn btn__margin" data-dismiss="modal">Close</button>
                             </div>
                         </div>
@@ -581,9 +576,7 @@
                                     among corporations and the government is explored heavily and how corporations pay off government speakers
                                     to deny climate change for profit.<br><br>Before the Flood was produced by many famous filmmakers in particular Fisher
                                     Stevens, Leonardo DiCaprio, Brett Ratner , James Packer, Trevor Davidovski, Jennifer Killoran and Martin Scorsese
-                                    as an executive producer. The way that National Geographic have distributed the film is very interesting, as it
-                                    shows them adapting to the modern style of distribution to present the film.<br><br>The film is available in it’s entirety on
-                                    their youtube channel for free, to get the message spread as far are possible.  </p>
+                                    as an executive producer.</p>
                                 <button type="button" class="btn btn__margin" data-dismiss="modal">Close</button>
                             </div>
                         </div>
@@ -620,11 +613,7 @@
                                     phones and on the streets of their towns, making it the most common form of violence young people in this
                                     country experience. BULLY is the first feature documentary film to show how we’ve all been affected by bullying,
                                     whether we’ve been victims, perpetrators or stood silent witness. The world we inhabit as adults begins on the
-                                    playground.<br><br>BULLY opens on the first day of school. For the more than 13 million kids who’ll be bullied this year
-                                    in the United States, it’s a day filled with more anxiety and foreboding than excitement. As the sun rises and
-                                    school buses across the country overflow with backpacks, brass instruments and the rambunctious sounds of
-                                    raging hormones, this is a ride into the unknown. For a lot of kids, the only thing that’s certain is that this year,
-                                    like every other, bullying will be a big part of whatever meets them at their school’s front doors. </p>
+                                    playground.</p>
                                 <button type="button" class="btn btn__margin" data-dismiss="modal">Close</button>
                             </div>
                         </div>
@@ -660,12 +649,7 @@
                                     Parents need to know that A Beautiful Planet is a stunning IMAX documentary (presented in 3-D when available)
                                     that takes viewers onto the International Space Station to get a glimpse of Earth from space.<br><br> There’s no shortage
                                     of incredible views, some of which are sobering - including a massive typhoon in the South Pacific, the droughtstricken
-                                    California landscape, and the melting Greenland ice sheet. Kids will learn about life on the space station
-                                    (including a slightly tense sequence in which an astronaut struggles to get into his suit and talks about how even
-                                    a tiny hole could kill him) and see humanity’s huge impact on our planet, from deforestation to greenhouse gas
-                                    emissions. The images (especially in IMAX scale) might be a little overwhelming for younger kids, but anyone
-                                    interested in science, space, or the environment will be blown away, and the astronauts are great role models
-                                    who demonstrate the importance of communication and cooperation.</p>
+                                    California landscape, and the melting Greenland ice sheet.</p>
                                 <button type="button" class="btn btn__margin" data-dismiss="modal">Close</button>
                             </div>
                         </div>
@@ -703,12 +687,7 @@
                                     Jean-Michel Basquiat was an influential African-American artist who rose to success during the 1980s. Basquiat’s
                                     paintings are largely responsible for elevating graffiti artists into the realm of the New York gallery scene. His
                                     spray-painted crowns and scribbled words, referenced everything from his Haitian and Puerto Rican heritage,
-                                    to political issues, pop-culture icons, and Biblical verse. <br><br> “It’s simply someone’s idea going through
-                                    my new mind.” Basquiat never finished high school but developed an appreciation for art as a youth, from
-                                    his many visits to the Brooklyn Museum of Art with his mother. His early work consisted of spray painting
-                                    buildings and trains in downtown New York alongside his friend Al Diaz. After quickly rising to fame in the early
-                                    1980s, Basquiat was befriended by many celebrities and artists, including Andy Warhol, with whom he made
-                                    several collaborative works.</p>
+                                    to political issues, pop-culture icons, and Biblical verse.</p>
                                 <button type="button" class="btn btn__margin" data-dismiss="modal">Close</button>
                             </div>
                         </div>
@@ -751,18 +730,7 @@
                                     football team.Now Trevor’s a time bomb himself - troubled, misunderstood,
                                     and on
                                     the brink of committing
-                                    real violence.<br><br>
-                                    Salvation comes in the form of a caring drama teacher named
-                                    Mr.
-                                    Duncan, who offers Trevor
-                                    the lead in the school play. But when the community gets wind of the play’s subject
-                                    matter - school violence
-                                    and playground killers - as well as its troubled protagonist, the production is in
-                                    jeopardy, as is Trevor’s attempt
-                                    to avoid calamity.
-                                    This gritty, hard-hitting drama offers an authentic glimpse
-                                    inside the post-Columbine high
-                                    schools of America and the forces that can compel a teen to violence.</p>
+                                    real violence.</p>
                                 <button type="button" class="btn btn__margin" data-dismiss="modal">Close</button>
                             </div>
                         </div>

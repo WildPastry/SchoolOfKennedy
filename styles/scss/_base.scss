@@ -75,19 +75,23 @@ body {
 }
 
 // MEDIA
-@media (max-width:1024px){
+@media (max-width:1024px) {
 	h1 {
 		font-size: 60px;
 	}
 }
 
-@media (max-width:768px){
+@media (max-width:768px) {
 	h1 {
 		font-size: 40px;
 	}
 }
 
-@media (max-width:568px){
+@media (max-width:576px) {
+	h1 {
+		margin-top: 20px;
+	}
+
 	h2 {
 		font-size: 30px;
 	}
