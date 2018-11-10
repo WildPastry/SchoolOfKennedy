@@ -6947,6 +6947,13 @@ footer {
 .fa-plus-circle:hover {
   color: #fff; }
 
+.dropdown-animated {
+  animation-duration: 1s;
+  animation-iteration-count: 1; }
+
+.red {
+  background-color: red; }
+
 .col-sm-3 {
   flex: 0 0 100%;
   max-width: 100%; }
@@ -6955,13 +6962,10 @@ footer {
   .col-sm-3 {
     flex: 0 0 50%;
     max-width: 50%; } }
-<<<<<<< HEAD
 @media (max-width: 992px) {
   .col-sm-5 {
     flex: 0 0 100%;
     max-width: 100%; } }
-=======
->>>>>>> refs/remotes/origin/master
 @media (min-width: 992px) {
   .col-sm-3 {
     flex: 0 0 33.333%;

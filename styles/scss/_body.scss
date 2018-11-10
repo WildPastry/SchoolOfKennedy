@@ -64,6 +64,16 @@
     color: $white;
 }
 
+// WATCHLIST ANIMATION
+.dropdown-animated{
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+
+.red {
+    background-color: red;
+}
+
 // COLUMN MEDIA
 .col-sm-3{
     flex: 0 0 100%;

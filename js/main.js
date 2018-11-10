@@ -70,6 +70,16 @@ document.getElementById('clearMovies').addEventListener('click', clearMovies);
 document.getElementById('filterPrimary').addEventListener('click', filterPrimary);
 document.getElementById('filterSecondary').addEventListener('click', filterSecondary);
 
+//WATCHLIST ANIMATION
+$(document).ready(function () {
+
+    $('.fa-plus-circle').click(
+        function () {
+            $('.dropdown-animated').toggleClass('.animated shake')
+        }
+    )
+});
+
 //CLEAR FILTER BUTTON (DISPLAY ALL MOVIES)
 function clearMovies() {
     $(function () {
@@ -448,118 +458,3 @@ jQuery(function ($) {
         return list;
     });
 });
-// SUBJECT BUTTON (FILTER BY SUBJECT)
-function englishFilter() {
-	$(function() {
-		$(".movieScience").hide();
-  
-	});
-	$(function() {
-		$(".movieArt").hide();
-  
-	});
-	$(function() {
-		$(".movieEnvironment").hide();
-  
-	});
-	$(function() {
-		$(".movieMaths").hide();
-  
-	});
-
-	$(function() {
-		$(".movieEnglish").show();
-	});
-}
-
-function scienceFilter() {
-	$(function(){
-		$(".movieEnglish").hide();
-  
-	});
-	$(function() {
-		$(".movieArt").hide();
-  
-	});
-	$(function() {
-		$(".movieEnvironment").hide();
-  
-	});
-	$(function() {
-		$(".movieMaths").hide();
-  
-	});
-
-	$(function() {
-		$(".movieScience").show();
-	});
-}
-
-function artFilter() {
-	$(function() {
-		$(".movieEnglish").hide();
-  
-	});
-	$(function() {
-		$(".movieScience").hide();
-  
-	});
-	$(function() {
-		$(".movieEnvironment").hide();
-  
-	});
-	$(function() {
-		$(".movieMaths").hide();
-  
-	});
-
-	$(function() {
-		$(".movieArt").show();
-	});
-}
-
-function environmentFilter() {
-	$(function(){
-		$(".movieEnglish").hide();
-  
-	});
-	$(function() {
-		$(".movieScience").hide();
-  
-	});
-	$(function() {
-		$(".movieArt").hide();
-  
-	});
-	$(function() {
-		$(".movieMaths").hide();
-  
-	});
-
-	$(function() {
-		$(".movieEnvironment").show();
-	});
-}
-
-function mathsFilter() {
-	$(function() {
-		$(".movieEnglish").hide();
-  
-	});
-	$(function() {
-		$(".movieScience").hide();
-  
-	});
-	$(function() {
-		$(".movieArt").hide();
-  
-	});
-	$(function() {
-		$(".movieEnvironment").hide();
-  
-	});
-
-	$(function() {
-		$(".movieMaths").show();
-	});
-}
