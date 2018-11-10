@@ -7,13 +7,11 @@
 }
 
 .modal-dialog {
-    max-width: 1150px;
-    width: 1150px !important;
-    height: 85% !important;
+    max-width: 950px;
 }
 
 .modal-content {
-    width: 100%;
+    min-width: 100%;
     background-color: $blue;
     border: 1px solid $white;
 }
@@ -71,4 +69,27 @@
     font-size: 20px;
     font-weight: 700;
     margin-bottom: 3px;
+}
+
+// MODAL COLUMNS
+@media (max-width: 910px) {
+    .modal-dialog {
+        max-width: 500px;
+    }
+
+    .modal--img img {
+        width: 200px;
+    }
+}
+
+.col-md-6 {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+@media (min-width: 911px) {
+    .col-md-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
 }
