@@ -217,7 +217,6 @@ function mathsFilter() {
     });
 }
 
-<<<<<<< HEAD
 // WATCHLIST BUTTONS
 var list = [];
 console.log(list);
@@ -449,7 +448,6 @@ jQuery(function ($) {
         return list;
     });
 });
-=======
 // SUBJECT BUTTON (FILTER BY SUBJECT)
 function englishFilter() {
 	$(function() {
@@ -565,4 +563,3 @@ function mathsFilter() {
 		$(".movieMaths").show();
 	});
 }
->>>>>>> refs/remotes/origin/master
