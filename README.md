@@ -1,19 +1,20 @@
-## Formative 2.2
+# SchoolOfKennedy
 
-Class project work. Create a single page application which includes JavaScript UI functionality based on user interaction.
+Class project work. Sources include:
     
-## Timeline
+    CSS:
+    sass
 
-24th October - 14th November
+    FONTS:
+    googlefonts
 
-## Functionality to include
+    JS:
+    vanilla
 
-    • View list
-    • View detail
-    • Filter items by category
+## Project
 
-## Learning outcomes 
+Create a single page application which includes JavaScript UI functionality based on user interaction
 
-    • Use JavaScript to manipulate the DOM
-    • Implement simple algorithms
-    • Use a range of production tools
+## Copyright
+
+Design © Mike Parker 2019
